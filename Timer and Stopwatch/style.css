@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: rgb(178, 205, 247);
+}
+
+
+.logo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 24px;
+  max-height: 12vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  width: 12pc;
+  height: 9pc;
+  margin-top: 18px;
+  margin-left: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+}
+
+.main {
+
+  padding: 29px 67px;
+  background-color: #ffff;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgb(59, 95, 212);
+
+}
+
+h3 {
+  font-size: 30px;
+  letter-spacing: 3px;
+  font-weight: 600;
+  margin: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ED1C24;
+
+}
+
+.clock {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#clockDisplay {
+  font-size: 48px;
+  color: #333;
+}
+
+.stopwatch {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#stopwatchDisplay {
+  font-size: 36px;
+  color: #333;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+button {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  padding: 10px 20px;
+  margin: 5px;
+  color: #fff;
+  background-color: #E32636;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #FF7F50;
+}
+
+button:active {
+  background-color: #222;
+}
